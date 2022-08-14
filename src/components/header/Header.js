@@ -30,24 +30,24 @@ function Header() {
                                     <li><a>Food</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a>Accessories</a></li>
-                                    <li><a>Alcohol</a></li>
-                                    <li><a>Art</a></li>
-                                    <li><a>Books</a></li>
-                                    <li><a>Brink</a></li>
-                                    <li><a>Electronics</a></li>
-                                    <li><a>Flowers &amp; Plants</a></li>
-                                    <li><a>Food</a></li>
+                                    <li><a>Gadgets</a></li>
+                                    <li><a>Garden</a></li>
+                                    <li><a>Grocery</a></li>
+                                    <li><a>Home</a></li>
+                                    <li><a>Jewelry</a></li>
+                                    <li><a>Kids &amp; Baby</a></li>
+                                    <li><a>Man's Fashion</a></li>
+                                    <li><a>Mobile</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a>Accessories</a></li>
-                                    <li><a>Alcohol</a></li>
-                                    <li><a>Art</a></li>
-                                    <li><a>Books</a></li>
-                                    <li><a>Brink</a></li>
-                                    <li><a>Electronics</a></li>
-                                    <li><a>Flowers &amp; Plants</a></li>
-                                    <li><a>Food</a></li>
+                                    <li><a>Motorcycles</a></li>
+                                    <li><a>Movies</a></li>
+                                    <li><a>Music</a></li>
+                                    <li><a>Office</a></li>
+                                    <li><a>Pets</a></li>
+                                    <li><a>Romantic</a></li>
+                                    <li><a>Sport</a></li>
+                                    <li><a>Toys</a></li>
                                 </ul>
                                 <ul>
                                     <li><a>Accessories</a></li>
