@@ -1,5 +1,6 @@
 import React from 'react';
 import './header.scss';
+import {Link} from 'react-router-dom';
 
 function Header() {
   return (
@@ -20,44 +21,44 @@ function Header() {
                             </div>
                             <div className='text__main'>
                                 <ul>
-                                    <li><a>Accessories</a></li>
-                                    <li><a>Alcohol</a></li>
-                                    <li><a>Art</a></li>
-                                    <li><a>Books</a></li>
-                                    <li><a>Brink</a></li>
-                                    <li><a>Electronics</a></li>
-                                    <li><a>Flowers &amp; Plants</a></li>
-                                    <li><a>Food</a></li>
+                                    <li><Link to ="/404" >Accessories</Link></li>
+                                    <li><Link to ="/404" >Alcohol</Link><a></a></li>
+                                    <li><Link to ="/404" >Art</Link><a></a></li>
+                                    <li><Link to ="/404" >Books</Link><a></a></li>
+                                    <li><Link to ="/404" >Brink</Link><a></a></li>
+                                    <li><Link to ="/404" >Electronics</Link><a></a></li>
+                                    <li><Link to ="/404" >Flowers &amp; Plants</Link><a></a></li>
+                                    <li><Link to ="/404" >Food</Link><a></a></li>
                                 </ul>
                                 <ul>
-                                    <li><a>Gadgets</a></li>
-                                    <li><a>Garden</a></li>
-                                    <li><a>Grocery</a></li>
-                                    <li><a>Home</a></li>
-                                    <li><a>Jewelry</a></li>
-                                    <li><a>Kids &amp; Baby</a></li>
-                                    <li><a>Man's Fashion</a></li>
-                                    <li><a>Mobile</a></li>
+                                    <li><Link to ="/404" >Gadgets</Link><a></a></li>
+                                    <li><Link to ="/404" >Garden</Link><a></a></li>
+                                    <li><Link to ="/404" >Grocery</Link><a></a></li>
+                                    <li><Link to ="/404" >Home</Link><a></a></li>
+                                    <li><Link to ="/404" >Jewelry</Link><a></a></li>
+                                    <li><Link to ="/404" >Kids &amp; Baby</Link><a></a></li>
+                                    <li><Link to ="/404" >Man's Fashion</Link><a></a></li>
+                                    <li><Link to ="/404" >Mobile</Link><a></a></li>
                                 </ul>
                                 <ul>
-                                    <li><a>Motorcycles</a></li>
-                                    <li><a>Movies</a></li>
-                                    <li><a>Music</a></li>
-                                    <li><a>Office</a></li>
-                                    <li><a>Pets</a></li>
-                                    <li><a>Romantic</a></li>
-                                    <li><a>Sport</a></li>
-                                    <li><a>Toys</a></li>
+                                    <li><Link to ="/404" >Motorcycles</Link><a></a></li>
+                                    <li><Link to ="/404" >Movies</Link><a></a></li>
+                                    <li><Link to ="/404" >Music</Link><a></a></li>
+                                    <li><Link to ="/404" >Office</Link><a></a></li>
+                                    <li><Link to ="/404" >Pets</Link><a></a></li>
+                                    <li><Link to ="/404" >Romantic</Link><a></a></li>
+                                    <li><Link to ="/404" >Sport</Link><a></a></li>
+                                    <li><Link to ="/404" >Toys</Link><a></a></li>
                                 </ul>
                                 <ul>
-                                    <li><a>Accessories</a></li>
-                                    <li><a>Alcohol</a></li>
-                                    <li><a>Art</a></li>
-                                    <li><a>Books</a></li>
-                                    <li><a>Brink</a></li>
-                                    <li><a>Electronics</a></li>
-                                    <li><a>Flowers &amp; Plants</a></li>
-                                    <li><a>Food</a></li>
+                                    <li><Link to ="/404" >Accessories</Link><a></a></li>
+                                    <li><Link to ="/404" >Alcohol</Link><a></a></li>
+                                    <li><Link to ="/404" >Art</Link><a></a></li>
+                                    <li><Link to ="/404" >Books</Link><a></a></li>
+                                    <li><Link to ="/404" >Brink</Link><a></a></li>
+                                    <li><Link to ="/404" >Electronics</Link><a></a></li>
+                                    <li><Link to ="/404" >Flowers &amp; Plants</Link><a></a></li>
+                                    <li><Link to ="/404" >Food</Link><a></a></li>
                                 </ul>
                             </div>
                         </div>

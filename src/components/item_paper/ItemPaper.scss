@@ -1,0 +1,54 @@
+.ItemPaper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 55px 55px 38px 55px;
+    background-color: #f1edea;
+    width: 1180px;
+    height: 1620px;
+    margin: 0 auto;
+
+    &__nav {
+        display: flex;
+        width: 350px;
+        justify-content: space-between;
+        font-size: 13px;
+        text-decoration: none;
+        color: black;
+        &__home {
+            color: #85bc23;
+            font-weight: 600;
+        }
+        &__slash {
+            opacity: .4;
+        }
+    }
+
+    &__header {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+        margin-bottom: 55px;
+        &__decor {
+            border-bottom: 2px solid gray;
+            width: 200px;
+            opacity: .1;
+        }
+        &__404 {
+            font-size: 45px;
+        }
+    }
+    &__content {
+        background-color: white;
+        background-repeat: no-repeat;
+        background-position: left;
+        display: flex;
+        width: 100%;
+        height: 1000px;
+        justify-content: space-around;
+
+    }
+}
+

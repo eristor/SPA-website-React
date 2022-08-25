@@ -1,0 +1,125 @@
+.CategoryPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 55px 55px 0px 55px;
+    background-color: #f1edea;
+    width: 1170px;
+    margin: 0 auto;
+
+    &__nav {
+        display: flex;
+        width: 210px;
+        justify-content: space-between;
+        font-size: 13px;
+        text-decoration: none;
+        color: black;
+
+        &__home {
+            color: #85bc23;
+            font-weight: 600;
+        }
+
+        &__slash {
+            opacity: .4;
+        }
+
+        & a {
+            color: #85bc23;
+        }
+    }
+
+    &__header {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+        margin-bottom: 55px;
+
+        &__decor {
+            border-bottom: 2px solid white;
+            width: 450px;
+            opacity: 1;
+        }
+
+        &__404 {
+            font-size: 45px;
+        }
+    }
+
+    &__content {
+        background-color: white;
+        background-repeat: no-repeat;
+        background-position: left;
+        display: flex;
+        width: 100%;
+        height: 170px;
+        justify-content: space-around;
+
+        &__filtres {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 32px 0px 32px 30px;
+            font-size: 12px;
+            flex-wrap: wrap;
+
+            &__block {
+                display: flex;
+                width: 270px;
+                justify-content: space-between;
+                align-items: center;
+                margin-right: 50px;
+                #color {
+                    margin-right: 25px;
+                }
+                &__color {
+                    display: flex;
+                    width: 270px;
+                    align-items: center;
+                
+                    & .bubble {
+                        width: 15px;
+                        height: 15px;
+                        background-color: red;
+                        margin-right: 13px;
+                        border-radius: 50%;
+                        &.active {
+                            box-shadow: 0 0 0 3px #474340;
+                        }
+                    }
+                }
+
+                &__filter {
+                    display: flex;
+                    width: 196px;
+                    border: 2px solid gray;
+                    height: 32px;
+                    align-items: center;
+                    border-radius: 25px;
+                    justify-content: space-between;
+                    padding: 0 10px 0 10px;
+                    &__img {
+                        background-image: url(./_.png);
+                        width: 9px;
+                        height: 7px;
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+    }
+
+    &__text {
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+}
+
+.Content__slider {
+    margin-top: 80px;
+    color: white;
+    background-color: #262a33;
+    width: 1280px;
+}

@@ -59,10 +59,10 @@ function Footer() {
             </div>
         </div>
         <div className='Footer__iconbar'>
-            <div className=''></div>
-            <div className=''></div>
-            <div className=''></div>
-            <div className=''></div>
+            <div className='Footer__iconbar__facebook'></div>
+            <div className='Footer__iconbar__google'></div>
+            <div className='Footer__iconbar__twitter'></div>
+            <div className='Footer__iconbar__pintrest'></div>
         </div>
     </div>
   )

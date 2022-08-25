@@ -1,0 +1,102 @@
+.Main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Card {
+    width: 270px;
+    height: 367px;
+    background-color: white;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-bottom: 29px;
+
+    &__back {
+        width: 271px;
+        height: 261px;
+        background-size: cover;
+        background-position: right;
+        border-radius: 7px 7px 0 0;
+    }
+    &__text {
+        margin: 18px 18px 8px 18px;
+        & p{
+            text-align: center;
+            color: #687482;
+            font-size: 15px;
+        }
+        
+    }
+    &__priceblock {
+        display: flex;
+        margin: 0 auto;
+        width: 180px;
+        box-shadow: 0px 0px 0px 1px #eaeaea;
+        border-radius: 15px;
+        &__price {
+            display: flex;
+            align-items: center;
+            padding: 0;
+            color: #41ca81;
+            box-shadow: 0px 0px 0px 1px #eaeaea;
+            margin-right: 17px;
+            padding: 7px 15px 7px 15px;
+            font-size: 15px;
+            border-radius: 15px 0 0 15px;
+        }
+        &__priceOnly {
+            display: flex;
+            color:#61708d;
+            margin-left: 105px;
+            margin-top: 13px;
+            font-size: 15px;
+        }
+        &__btn {
+            display: flex;
+            align-items: center;
+            padding: 0;
+            color: black;
+            font-weight: 600;
+            padding-right: 9px;
+        }
+    }
+}
+
+.btn {
+    display: flex;
+    width: 262px;
+    height: 32px;
+    border-radius: 20px;
+    border: 2px solid white;
+    align-items: center;
+    background-color: #262a33;
+    color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    &__text {
+        margin-right: 23px;
+        margin-left: 90px;
+    }
+    &__img {
+        background-image: url(./card_img/U.png);
+        width: 20px;
+        height: 15px;
+    }
+}
+
+.btn__green {
+    display: flex;
+    width: 152px;
+    height: 36px;
+    border-radius: 25px;
+    align-items: center;
+    background-color: #85bc23;
+    color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: 12px;
+    justify-content: center;
+    &__text {
+    }
+}

@@ -1,16 +1,17 @@
 * {
     margin: 0;
     padding: 0;
-    font-size: 13px;
     list-style: none;
     text-decoration: none;
 }
 .Footer {
+    font-size: 13px;
     display: flex;
     width: 1280px;
     margin: 0 auto;
     padding-top: 43px;
     padding-left: 55px;
+
     
     &__contacts {
         font-size: 12px;
@@ -48,6 +49,7 @@
             }
         }
         &__content {
+            color: #8f8e8e;
             display: flex;
             margin-top: 15px;
             line-height: 35px;
@@ -57,4 +59,42 @@
             }
         }
     }
+
+    &__iconbar {
+        display: flex;
+        width: 120px;
+        margin-left: 105px;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        &__facebook {
+            background-image: url(./Footer_img/f.png);
+            background-repeat: no-repeat;
+            opacity: 0.4;
+            width: 9px;
+            height: 18px;
+        }
+        &__google {
+            background-image: url(./Footer_img/g.png);
+            background-repeat: no-repeat;
+            opacity: 0.4;
+            width: 17px;
+            height: 18px;
+        }
+        &__twitter {
+            background-image: url(./Footer_img/t.png);
+            background-repeat: no-repeat;
+            opacity: 0.4;
+            width: 20px;
+            height: 20px;
+        }
+        &__pintrest {
+            background-image: url(./Footer_img/p.png);
+            background-repeat: no-repeat;
+            opacity: 0.4;
+            width: 15px;
+            height: 18px;
+        }
+    }
+
 }

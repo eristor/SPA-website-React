@@ -15,7 +15,7 @@
     position: sticky;
     top: 0;
     background-color: white;
-
+    z-index: 2;
     &__logo {
         background-image: url(./header_img/logo.png);
         width: 148px;
@@ -78,11 +78,14 @@
                     width: 800px;
                     height: 270px;
                     padding: 65px 0 65px 58px;
+                    & a {
+                        color: white;
+                    }
                     & .text__header {
                         display: flex;
                         margin-bottom: 28px;
                         & span:first-child {
-                            margin-right: 533px;
+                            margin-right: 543px;
                         }
                     }
                     & .text__main {

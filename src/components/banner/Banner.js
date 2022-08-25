@@ -1,38 +1,12 @@
 import React from 'react';
+
 import './banner.scss';
+import Banner__slider from './Banner_slider/Banner__slider';
 
 function Banner() {
   return (
     <div className='Banner'>
-        <div className='Banner__left'>
-            <div className='left__slider__one slide __active'>
-                <header>
-                    Control and manage any <br /> device with cloud solutions
-                </header>
-                <p>Improve business perfomance and the user experiance <br /> with the right mix of loT technology and processes</p>
-                <div className='__button'><p>VIEW MORE</p></div>
-            </div>
-            <div className='left__slider__two slide'>
-                <header>
-                    Control and manage any device with cloud solutions
-                </header>
-                <p>Improve business perfomance and the user experiance with the right mix of loT technology and processes</p>
-                <div className='__button'>VIEW MORE</div>
-            </div>
-            <div className='left__slider__three slide'>
-                <header>
-                    Control and manage any device with cloud solutions
-                </header>
-                <p>Improve business perfomance and the user experiance with the right mix of loT technology and processes</p>
-                <div className='__button'>VIEW MORE</div>
-            </div>
-            <div className='__dots'>
-                <div className='__dot __active'></div>
-                <div className='__dot'></div>
-                <div className='__dot'></div>
-            </div>
-        </div>
-
+        <Banner__slider />
         <div className='Banner__right'>
             <div className='right__sale'>
                 <div className='right__sale__text'>
