@@ -1,0 +1,32 @@
+.IPSwiper__content__swiper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    &__big {
+        width: 80%;
+        height: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    &__little {
+        margin-left: 3%;
+        width: 12%;
+        height: 100%;
+        margin-top: 3%;
+
+        &__img {
+            background-position: center;
+            width: 90%;
+            height: 15%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-bottom: 25%;
+
+            &.active {
+                box-shadow: 0 0 0 1.5px #85bc23;
+            }
+        }
+    }
+}

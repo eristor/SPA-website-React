@@ -45,17 +45,20 @@
         height: 270px;
         &__header {
             span:first-child {
-                margin-right: 515px;
+                margin-right: 582px;
             }
         }
         &__content {
             color: #8f8e8e;
             display: flex;
             margin-top: 15px;
-            line-height: 35px;
+            line-height: 30px;
             margin-left: 3px;
             ul {
                 margin-right: 139px;
+            }
+            li {
+                width: 85px;
             }
         }
     }

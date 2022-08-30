@@ -4,21 +4,23 @@
     align-items: center;
     padding: 55px 55px 38px 55px;
     background-color: #f1edea;
-    width: 1180px;
-    height: 1620px;
+    width: 77%;
+    height: 100%;
     margin: 0 auto;
 
     &__nav {
         display: flex;
-        width: 350px;
+        width: 28%;
         justify-content: space-between;
         font-size: 13px;
         text-decoration: none;
         color: black;
+
         &__home {
             color: #85bc23;
             font-weight: 600;
         }
+
         &__slash {
             opacity: .4;
         }
@@ -29,26 +31,99 @@
         width: 100%;
         justify-content: space-between;
         align-items: center;
-        margin-top: 15px;
-        margin-bottom: 55px;
+        margin-top: 2%;
+        margin-bottom: 5%;
+
         &__decor {
             border-bottom: 2px solid gray;
-            width: 200px;
+            width: 21%;
             opacity: .1;
         }
+
         &__404 {
             font-size: 45px;
         }
     }
+
     &__content {
-        background-color: white;
+        background-color: #f1edea;
         background-repeat: no-repeat;
-        background-position: left;
         display: flex;
         width: 100%;
-        height: 1000px;
-        justify-content: space-around;
+        flex-wrap: wrap;
 
+
+        &__popular {
+            display: flex;
+        }
     }
+    .ContentFooters {
+        width: 100% !important;
+    }
+
 }
 
+.filter__img {
+    background-repeat: no-repeat;
+    width: 0.5vw;
+    height: 0.9vh;
+    background-image: url(./item_img/_.png);
+}
+
+.ItemInfo__wrapper {
+    width: 100%;
+    display: flex;
+    margin-top: 10%;
+}
+
+.read-more-button {
+    margin-top: 2%;
+    color: #85bc23;
+}
+
+.content__popularItem {
+    width: 100%;
+    margin-top: 6%;
+    background-color: #f1edea;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        align-items: center;
+
+        & h2 {
+            font-size: 30px;
+        }
+
+        &__ {
+            width: 40%;
+            border-bottom: 3px solid rgba(0, 0, 0, 0.9);
+            opacity: 0.1;
+        }
+    }
+
+}
+
+.Procol {
+    width: 60%;
+    height: 600px;
+    background-color: white;
+}
+
+.Procol2 {
+    width: 40%;
+    height: 600px;
+    margin-bottom: 10%;
+    background-color: white;
+}
+
+.Procol3 {
+    background-color: #f1edea;
+}
+.Procol5 {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}

@@ -5,7 +5,7 @@ import Banner_bottom from '../banner/Banner_bottom/Banner_bottom';
 import Sliders from './Slider/Sliders';
 import ContentFooter from './ContentFooter/ContentFooter';
 
-function Content() {
+function Content({Likeincrease, increase}) {
 
   const settings = {
     dots: true,
@@ -16,29 +16,28 @@ function Content() {
   };
 
   return (
-    <div className='Content'>
-      <div className='Content__popularItem'>
-        <div className='Content__popularItem__header'>
-          <div className='Content__popularItem__header__'></div>
-          <h2>Popular Items</h2>
-          <div className='Content__popularItem__header__'></div>
+    <div>
+      <div className='Content'>
+        <div className='Content__popularItem'>
+          <div className='Content__popularItem__header'>
+            <div className='Content__popularItem__header__'></div>
+            <h2>Popular Items</h2>
+            <div className='Content__popularItem__header__'></div>
+          </div>
+          <div className='Content__popularItem__card'>
+            <Card quant={8} needBtn={false} Likeincrease = {Likeincrease} increase = {increase}/>
+          </div>
         </div>
-        <div className='Content__popularItem__card'>
-          <Card quant={8} />
+        <div className='Content__banner'>
+          <Banner_bottom />
         </div>
-      </div>
-      <div className='Content__banner'>
-        <Banner_bottom />
-      </div>
-      
-
         <Sliders />
 
-      <div className='Content__footer'>
+
       </div>
       <ContentFooter />
-
     </div>
+
   )
 }
 

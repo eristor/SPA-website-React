@@ -1,0 +1,52 @@
+.ShoppingCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 55px 55px 0px 55px;
+    background-color: #f1edea;
+    width: 77%;
+    margin: 0 auto;
+
+    &__nav {
+        display: flex;
+        width: 13%;
+        justify-content: space-between;
+        font-size: 13px;
+        text-decoration: none;
+        color: black;
+
+        &__home {
+            color: #85bc23;
+            font-weight: 600;
+        }
+
+        &__slash {
+            opacity: .4;
+        }
+
+        & a {
+            color: #85bc23;
+        }
+    }
+
+    &__header {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+        margin-bottom: 55px;
+
+        &__decor {
+            border-bottom: 2px solid #44413e;
+            width: 35%;
+            opacity: .1;
+        }
+
+        &__404 {
+            color: #44413e;
+            font-size: 45px;
+            font-weight: 700;
+        }
+    }
+}

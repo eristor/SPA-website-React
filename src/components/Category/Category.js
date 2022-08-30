@@ -5,7 +5,7 @@ import Sliders from '../Content/Slider/Sliders';
 
 import './Category.scss'
 
-function Category() {
+function Category({Likeincrease, increase}) {
     return (
         <div className='CategoryPage'>
             <nav className='CategoryPage__nav'>
@@ -71,7 +71,7 @@ function Category() {
                 </div>
             </div>
             <div className='CategoryPage__text'><p>12,931 result in apparel</p></div>
-            <Card green={true} quant={16} />
+            <Card green={true} quant={16} Likeincrease = {Likeincrease} increase = {increase}/>
             <div className='Content__slider'>
                 <Sliders />
             </div>

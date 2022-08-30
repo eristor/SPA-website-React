@@ -3,6 +3,9 @@
     display: flex;
     color: white;
     margin-left: -5px;
+    .link {
+        color: white;
+    }
     & .left__slider__one{
         background-image: url(./banner_img/banner.png);
         background-position: center;
@@ -37,6 +40,7 @@
                 margin: 0;
             }    
         }
+        
     }
     & .left__slider__two{
         display: flex;
@@ -48,6 +52,7 @@
         width: 870px;   
         border-radius: 0 0 5px 5px;
         align-items: center;
+        
         & header {
             padding-top: 45px;
             padding-left: 60px;
@@ -148,3 +153,4 @@
     box-shadow: 0 0 0 3px white;
     opacity: 1;
 }
+

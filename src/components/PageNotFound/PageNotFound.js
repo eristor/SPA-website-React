@@ -25,7 +25,7 @@ function PageNotFound() {
                 <Link to ="/" className='PageNotFound__content__text__home'>Go back to Homepage</Link>
                 <div className='PageNotFound__content__text__search'>
                     <h3>Search our site</h3>
-                    <input type='text' value="SEARCH" className='Search' />
+                    <input type='text' value="SEARCH" className='Search'></input>
                 </div>
             </div>
         </div>

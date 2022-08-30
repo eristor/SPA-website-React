@@ -1,6 +1,8 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
+import {  Link } from 'react-router-dom';
+
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -30,7 +32,7 @@ function Banner__slider() {
                                 Control and manage any <br /> device with cloud solutions
                             </header>
                             <p>Improve business perfomance and the user experiance <br /> with the right mix of loT technology and processes</p>
-                            <div className='__button'><p>VIEW MORE</p></div>
+                            <Link to="/Category" className='link'><div className='__button'>VIEW MORE</div></Link>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -39,7 +41,7 @@ function Banner__slider() {
                                 Control and manage any device with cloud solutions
                             </header>
                             <p>Improve business perfomance and the user experiance with the right mix of loT technology and processes</p>
-                            <div className='__button'>VIEW MORE</div>
+                            <Link to="/Category" className='link'><div className='__button'>VIEW MORE</div></Link>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -48,7 +50,7 @@ function Banner__slider() {
                                 Control and manage any device with cloud solutions
                             </header>
                             <p>Improve business perfomance and the user experiance with the right mix of loT technology and processes</p>
-                            <div className='__button'>VIEW MORE</div>
+                            <Link to="/Category" className='link'><div className='__button'>VIEW MORE</div></Link>
                         </div>
                 </SwiperSlide>
             </Swiper>

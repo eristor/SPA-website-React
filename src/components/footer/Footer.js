@@ -6,7 +6,7 @@ function Footer() {
     <div className='Footer'>
         <div className='Footer__contacts'>
             <div className='Footer__contacts__copyright'>
-                <span>&#169; Copyright 2019.<br/></span>
+                <span>&#169; Copyright 2022.<br/></span>
                 <span>All Rights Reserved.</span>
             </div>
             <div className='Footer__contacts__info'>

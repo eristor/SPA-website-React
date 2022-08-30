@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 import './card.scss';
 import one from './card_img/Layer149.png';
 import two from './card_img/Layer151.png';
@@ -46,7 +48,7 @@ function Card(props) {
             img: five,
             text: 'Kristina Dam Oak Table With White Marble Top',
             price: '799.55',
-            btn: false
+            btn: true
         },
         {
             id: uuid(),
@@ -142,6 +144,16 @@ function Card(props) {
         setnoOfElement(noOfElement + noOfElement);
     }
 
+    let requestURL = './Card.json';
+    let request = new XMLHttpRequest();
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+    request.onload = function() {
+        let superHeroes = request.response;
+        console.log(superHeroes)
+      }
+
     return (
         <div className='Wrapper'>
             <div className='Main'>
@@ -149,24 +161,32 @@ function Card(props) {
                     return (
                         <div className='Card' key={index}>
                             <div className='Card__back' id='Card__back' style={{ backgroundImage: `url(${item.img})` }}></div>
+                            {item.btn ? <></> : (<div>
+                                <div className='Card__effect'></div>
+                                <div className='Card__purch'>
+                                    <div className='Card__purch__heart' onClick={props.Likeincrease}></div>
+                                    <div className='Card__purch__plus' onClick={props.increase}></div>
+                                </div>
+                            </div>)}
+
                             <div className='Card__text'><p>{item.text}</p></div>
-                            {item.btn ? (<div className='Card__priceblock'>
+                            {item.btn ? (<Link to="/ItemPaper" className='link'><div className='Card__priceblock'>
                                 <div className='Card__priceblock__price'>${item.price}</div>
                                 <div className='Card__priceblock__btn'>BUY NOW</div>
-                            </div>) : (<div className='Card__priceblock__priceOnly'>$ {item.price}</div>)}
+                            </div></Link>) : (<div className='Card__priceblock__priceOnly'>$ {item.price}</div>)}
+
                         </div>
                     )
                 })}
             </div>
-            {props.green ? (
+            {props.needBtn ? (<></>) : (props.green ? (
                 <div className='btn__green' onClick={() => loadMore()}>
                     <div className='btn__green__text'>LOAD MORE</div>
                     <div className='btn__green__img'></div>
                 </div>) : (<div className='btn' onClick={() => loadMore()}>
                     <div className='btn__text'>LOAD MORE</div>
                     <div className='btn__img'></div>
-                </div>)}
-
+                </div>))}
         </div>
     )
 }
