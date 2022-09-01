@@ -1,0 +1,60 @@
+.Mobile__bottom {
+    bottom: 0px;
+    background-color: #262a33;
+    border-top: 1px solid white;
+    width: 89%;
+    padding: 10px 20px 10px 20px;
+    z-index: 100;
+    position: sticky;
+
+
+    .Header__iconbar {
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+
+        .Header__iconbar__curcle {
+            position: absolute;
+            top: -20%;
+            left: 70%;
+            font-size: 10px;
+            box-shadow: 0 0 0 2px #85bc23;
+            border-radius: 50%;
+            padding: 5% 15%;
+            background-color: #262a33;
+            color: white;
+        }
+
+        .iconbar__search {
+            background-image: url(./img/search.png);
+            background-repeat: no-repeat;
+            width: 23px;
+            height: 23px;
+        }
+
+        .iconbar__user {
+            background-image: url(./img/user.png);
+            background-repeat: no-repeat;
+            width: 23px;
+            height: 23px;
+            cursor: pointer;
+        }
+
+        .iconbar__likes {
+            position: relative;
+            background-image: url(./img/heart.png);
+            background-repeat: no-repeat;
+            width: 25px;
+            height: 22px;
+        }
+
+        .iconbar__bucket {
+            position: relative;
+            background-image: url(./img/cart.png);
+            background-repeat: no-repeat;
+            width: 26px;
+            height: 23px;
+        }
+    }
+
+}

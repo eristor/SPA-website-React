@@ -1,0 +1,32 @@
+.Banner__mobile__bottom {
+  background-image: url(./banner_bottom_img//Layer148.png);
+  height: 150px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.Banner__mobile__bottom h2 {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 28px;
+}
+
+.Banner__mobile__bottom p {
+  font-size: 14px;
+  width: 335px;
+  text-align: center;
+}
+/*# sourceMappingURL=Mobile_fullbanner.css.map */

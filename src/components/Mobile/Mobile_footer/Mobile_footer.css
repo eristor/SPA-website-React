@@ -1,0 +1,55 @@
+.Mobile__footer {
+  width: 98%;
+  padding: 10px 0px 10px 2%;
+  font-size: 13px;
+}
+
+.Mobile__footer__copy {
+  margin-bottom: 4%;
+}
+
+.Mobile__footer__contact {
+  margin-bottom: 5%;
+}
+
+.Mobile__footer__categoriest {
+  margin-bottom: 5%;
+  line-height: 20px;
+}
+
+.Mobile__footer__categoriest ul {
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.Mobile__footer__about {
+  margin-bottom: 3%;
+  line-height: 20px;
+}
+
+.Mobile__footer__about ul {
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.Mobile__footer .Info {
+  line-height: 25px;
+  margin-left: 1%;
+}
+
+.Mobile__footer .Info .Footer__mobile__contacts__info__data {
+  margin-top: 2%;
+}
+
+.Mobile__footer .Info .Footer__mobile__contacts__info__data a {
+  color: black;
+}
+
+.Mobile__footer .Footer__iconbar {
+  margin: 0 auto;
+}
+
+.Mobile__footer .read-more-link {
+  font-size: 11px;
+}
+/*# sourceMappingURL=Mobile_footer.css.map */

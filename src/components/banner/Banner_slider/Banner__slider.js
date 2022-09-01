@@ -1,6 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper";
+import {Autoplay, Navigation, Pagination } from "swiper";
 import {  Link } from 'react-router-dom';
 
 
@@ -23,7 +23,11 @@ function Banner__slider() {
                     pagination = {{
                         clickable: true
                     }} 
-                    modules={[Navigation, Pagination]}
+                    modules={[Navigation, Pagination, Autoplay]}
+                    autoplay={{
+                        delay: 5000,
+                        disableOnInteraction: false,
+                      }}
                     
             >
                     <SwiperSlide>
@@ -38,21 +42,21 @@ function Banner__slider() {
                     <SwiperSlide>
                         <div className='left__slider__two'>
                             <header>
-                                Control and manage any device with cloud solutions
+                                Control and manage any <br /> device with cloud solutions
                             </header>
-                            <p>Improve business perfomance and the user experiance with the right mix of loT technology and processes</p>
+                            <p>Improve business perfomance and the user experiance <br /> with the right mix of loT technology and processes</p>
                             <Link to="/Category" className='link'><div className='__button'>VIEW MORE</div></Link>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='left__slider__three'>
                             <header>
-                                Control and manage any device with cloud solutions
+                                Control and manage any <br /> device with cloud solutions
                             </header>
-                            <p>Improve business perfomance and the user experiance with the right mix of loT technology and processes</p>
+                            <p>Improve business perfomance and the user experiance <br /> with the right mix of loT technology and processes</p>
                             <Link to="/Category" className='link'><div className='__button'>VIEW MORE</div></Link>
                         </div>
-                </SwiperSlide>
+                    </SwiperSlide>
             </Swiper>
         </div>
   )

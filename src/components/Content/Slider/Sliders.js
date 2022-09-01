@@ -30,23 +30,23 @@ function Sliders() {
             id: 3,
             img: three,
             text: 'Kristina Dam Oak Table With White Marble Top',
-            tag: 'Awesome'
+            tag: 'Marketing'
         },
         {
             id: 21,
-            img: three,
+            img: four,
             text: 'Kristina Dam Oak Table With White Marble Top',
             tag: 'Awesome'
         },
         {
             id: 34,
-            img: three,
+            img: one,
             text: 'Kristina Dam Oak Table With White Marble Top',
-            tag: 'Awesome'
+            tag: 'Marketing'
         },
         {
             id: 567,
-            img: three,
+            img: two,
             text: 'Kristina Dam Oak Table With White Marble Top',
             tag: 'Awesome'
         },

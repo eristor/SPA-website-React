@@ -54,6 +54,7 @@
             border-radius: 25px;
             padding: 5% 0;
         }
+
         input {
             display: flex;
             border: 0px;
@@ -101,13 +102,18 @@
             margin-left: 15%;
             display: flex;
             width: 60%;
+
+            a {
+                margin-right: 10%;
+            }
+
             &__facebook {
                 height: 20px;
                 width: 15px;
                 background-image: url(../item_img/f.png);
                 background-repeat: no-repeat;
                 opacity: .4;
-                margin-right: 10%;
+
             }
 
             &__google {

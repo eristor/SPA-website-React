@@ -1,0 +1,133 @@
+.LoginWin {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.LoginWin.active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.LoginWin .Password__label {
+  position: relative;
+}
+
+.LoginWin .Password__label .Password__btn {
+  position: absolute;
+  right: 15px;
+  top: 0px;
+  cursor: pointer;
+}
+
+.LoginWin .Password__label .Password__btn.active::after {
+  opacity: 0;
+}
+
+.LoginWin .Password__label .Password__btn::after {
+  position: absolute;
+  content: '';
+  top: 8px;
+  right: 1px;
+  width: 30px;
+  height: 2px;
+  background: gray;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+  opacity: 1;
+}
+
+.LoginWin__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  padding: 3%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 13px;
+  width: 25%;
+  border-radius: 7px;
+}
+
+.LoginWin__content h2 {
+  margin-bottom: 15%;
+  font-size: 28px;
+}
+
+.LoginWin__content__form {
+  width: 100%;
+}
+
+.LoginWin__content__form a {
+  color: #85bc23;
+}
+
+.LoginWin__content__form__part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 4%;
+}
+
+.LoginWin__content__form__btnContainer {
+  margin-top: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.LoginWin__content__form__btnContainer__btn {
+  width: 45%;
+  padding: 3% 0%;
+  border-radius: 25px;
+  border: 1px solid #85bc23;
+  color: white;
+  background-color: #85bc23;
+  margin-bottom: 6%;
+}
+
+.LoginWin__content__form input {
+  border-radius: 30px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  padding: 3% 2%;
+  width: 95%;
+  margin-top: 3%;
+}
+
+.LoginWin__content__form input:focus {
+  outline: none;
+}
+/*# sourceMappingURL=LoginWin.css.map */

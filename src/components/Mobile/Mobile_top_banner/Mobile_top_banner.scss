@@ -1,0 +1,108 @@
+.Banner__left__mobile {
+    width: 90%;
+    display: flex;
+    color: white;
+    margin: 0 auto;
+    margin-top: 80px;
+    align-items: center;
+    margin-left: 3%;
+
+    .link {
+        color: white;
+    }
+
+    & .left__slider__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        height: 500px;
+        width: 100%;
+        border-radius: 10px 10x 5px 5px;
+        z-index: -1;
+
+        & header {
+            font-size: 30px;
+            text-align: left;
+            width: 80%;
+            margin: 0;
+        }
+
+        & p {
+            margin-top: 115px;
+            font-size: 14px;
+        }
+
+        & .__button {
+            display: flex;
+            margin-left: 0%;
+            margin-top: 60px;
+            height: 35px;
+            width: 148px;
+            border: 1px solid white;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20px;
+
+            & p {
+                padding: 0;
+                margin: 0;
+            }
+        }
+
+        &.one {
+            background-image: url(./banner_img/banner.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            text-align: left;
+
+            header {
+                text-align: left;
+            }
+            p {
+                margin-left: 10px;
+            }
+        }
+
+        &.two {
+            background-image: url(./banner_img/banner.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            text-align: center;
+
+            header {
+                text-align: center;
+            }
+        }
+
+        &.three {
+            background-image: url(./banner_img/banner.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            text-align: right;
+
+            header {
+                margin-right: 30px;
+            }
+            p {
+                margin-right: 10px;
+            }
+        }
+
+    }
+
+
+}
+
+.swiper-pagination-bullet {
+    background-color: white;
+    opacity: .6;
+    margin-bottom: 10px !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: transparent;
+    box-shadow: 0 0 0 3px white;
+    opacity: 1;
+}

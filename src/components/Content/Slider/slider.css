@@ -1,0 +1,95 @@
+.Main__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 13px;
+}
+
+.Slider__card {
+  height: 295px;
+  width: 269px;
+  background-color: white;
+  border-radius: 7px;
+}
+
+.Slider__card__top {
+  height: 190px;
+  background-size: cover;
+  margin-top: -2px;
+}
+
+.Slider__card__text {
+  margin: 0 auto;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #687482;
+  text-align: center;
+  width: 152px;
+}
+
+.Slider__card__tag {
+  color: #85bc23;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.btn__section {
+  margin: 32px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 590px;
+}
+
+.btn__section__press {
+  width: 28px;
+  height: 28px;
+}
+
+.btn__section__mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn__section__mid__ {
+  width: 234px;
+  border-bottom: 3px solid white;
+}
+
+.btn__section__mid__dec {
+  margin-left: 7px;
+  margin-right: 7px;
+  font-size: 30px;
+}
+
+#Left__btn {
+  background-image: url(./slider_img/arrow1.png);
+}
+
+#Right__btn {
+  background-image: url(./slider_img/arrow2.png);
+}
+
+.Slider__wrapper {
+  background-color: #262a33;
+  height: 550px;
+}
+
+.MySwiper {
+  width: 1180px;
+}
+/*# sourceMappingURL=slider.css.map */

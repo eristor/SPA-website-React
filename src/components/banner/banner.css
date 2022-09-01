@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.Banner {
+  width: 1170px;
+  height: 505px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 28px;
+}
+
+.Banner__right .right__sale {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 30px;
+  background-image: url(./banner_img/Green.png);
+  height: 333px;
+  width: 268px;
+}
+
+.Banner__right .right__sale__text {
+  margin-left: 10px;
+  margin-top: 48px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Banner__right .right__sale__text h2 {
+  font-size: 95px;
+  margin-bottom: 55px;
+}
+
+.Banner__right .right__sale__text span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 25px;
+}
+
+.Banner__right .right__follow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #73706e;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.Banner__right .right__follow p {
+  font-size: 12px;
+}
+
+.Banner__right .right__follow header {
+  margin-bottom: 12px;
+}
+
+.Banner__right .right__follow__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 27px;
+  color: #385c96;
+  border: 3px solid #385c96;
+  padding: 10px 40px 10px 20px;
+  border-radius: 20px;
+}
+
+.Banner__right .right__follow__btn__img {
+  width: 15px;
+  height: 15px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(./banner_img/F.png);
+  margin-right: 20px;
+}
+/*# sourceMappingURL=banner.css.map */

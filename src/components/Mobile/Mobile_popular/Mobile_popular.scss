@@ -1,0 +1,175 @@
+.Mobile__popularItem {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #262a33;
+    width: 100%;
+    padding: 0;
+
+    .Main__mobile__content {
+        display: flex;
+    }
+
+    .swiper-wrapper {
+        height: 420px;
+    }
+
+    .PopularItem__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 20px;
+        color: white;
+
+        &__ {
+            width: 30%;
+            border-bottom: 1px solid white;
+            opacity: .2;
+        }
+    }
+
+    .Card {
+        position: relative;
+        width: 85%;
+        max-width: 320px;
+        height: 367px;
+        background-color: white;
+        border-radius: 7px;
+        font-size: 15px;
+        margin-bottom: 29px;
+        margin: auto;
+        margin-top: 20px;
+
+
+        &:hover .Card__purch {
+            visibility: visible;
+        }
+
+        &:hover .Card__effect {
+            visibility: visible;
+        }
+
+        &__back {
+            position: relative;
+            z-index: 0;
+            width: 100%;
+            height: 261px;
+            background-size: cover;
+            background-position: right;
+            border-radius: 7px 7px 0 0;
+        }
+
+        &__text {
+            margin: 18px 18px 8px 18px;
+
+            & p {
+                text-align: center;
+                color: #687482;
+                font-size: 15px;
+            }
+
+        }
+
+        &__priceblock {
+            display: flex;
+            margin: 0 auto;
+            width: 180px;
+            box-shadow: 0px 0px 0px 1px #eaeaea;
+            border-radius: 15px;
+
+            &__price {
+                display: flex;
+                align-items: center;
+                padding: 0;
+                color: #41ca81;
+                box-shadow: 0px 0px 0px 1px #eaeaea;
+                margin-right: 17px;
+                padding: 7px 15px 7px 15px;
+                font-size: 15px;
+                border-radius: 15px 0 0 15px;
+            }
+
+            &__priceOnly {
+                display: flex;
+                color: #61708d;
+                margin-left: 40% !important;
+                margin-top: 13px;
+                font-size: 15px;
+            }
+
+            &__btn {
+                display: flex;
+                align-items: center;
+                padding: 0;
+                color: black;
+                font-weight: 600;
+                padding-right: 9px;
+                font-size: 13px;
+            }
+        }
+
+        &__purch {
+            position: absolute;
+            display: flex;
+            top: 0;
+            left: 0;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            height: 100%;
+            visibility: hidden;
+
+            &__heart {
+                background-image: url(./card_img/heart.png);
+                width: 30%;
+                height: 20%;
+                background-size: contain;
+                background-repeat: no-repeat;
+
+            }
+
+            &__plus {
+                background-image: url(./card_img/plus.png);
+                width: 30%;
+                height: 20%;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+
+        }
+
+        &__effect {
+            position: absolute;
+            display: flex;
+            top: 0;
+            left: 0;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            height: 100%;
+            visibility: visible;
+            background: linear-gradient(to top left, #32c676, #3bcfa1);
+            opacity: .9;
+            visibility: hidden;
+        }
+
+    }
+
+
+    .MySwiper {
+        width: 100%;
+    }
+
+    .swiper-pagination-bullet {
+        background-color: white;
+        opacity: .6;
+        margin-bottom: 0px !important;
+
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: transparent;
+        box-shadow: 0 0 0 3px white;
+        opacity: 1;
+    }
+}

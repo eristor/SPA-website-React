@@ -14,6 +14,52 @@
     font-size: 15px;
     margin-bottom: 29px;
 
+    &__dif {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+
+        &__effect2 {
+            position: absolute;
+            display: flex;
+            top: 0;
+            left: 0;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, #cb648a, #685a89);
+            opacity: .7;
+        }
+
+        &__text {
+            position: absolute;
+            bottom: -60%;
+            justify-content: space-around;
+            width: 135px;
+            height: 100%;
+            padding: 0 0px 0 20px;
+
+            &__icon {
+                background-image: url(./card_img/Layer150.png);
+                background-size: contain;
+                width: 30px;
+                height: 30px;
+                background-repeat: no-repeat;
+            }
+
+            &__ago {
+                margin-top: 20px;
+            } 
+            .Bottom__box__dif {
+                margin-top: 10px;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
 
 
     &:hover .Card__purch {
@@ -80,6 +126,7 @@
             font-weight: 600;
             padding-right: 9px;
             font-size: 13px;
+            cursor: pointer;
         }
     }
 

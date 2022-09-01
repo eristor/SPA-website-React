@@ -31,8 +31,9 @@
         margin-top: 15px;
         margin-bottom: 55px;
         &__decor {
-            border-bottom: 2px solid red;
+            border-bottom: 2px solid gray;
             width: 508px;
+            opacity: .2;
         }
         &__404 {
             font-size: 45px;

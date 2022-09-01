@@ -1,5 +1,5 @@
 .Banner__left {
-    width: 905px; 
+    width: 77%; 
     display: flex;
     color: white;
     margin-left: -5px;
@@ -11,7 +11,7 @@
         background-position: center;
         height: 505px;
         background-repeat: no-repeat;
-        width: 870px;   
+        width: 98%;   
         border-radius: 0 0 5px 5px;
         z-index: -1;
         & header {
@@ -45,11 +45,11 @@
     & .left__slider__two{
         display: flex;
         flex-direction: column;
-        background-image: url(./banner_img/banner.png);
+        background-image: url(./banner_img/Layer5.png);
         background-position: center;
         height: 505px;
         background-repeat: no-repeat;
-        width: 870px;   
+        width: 98%;    
         border-radius: 0 0 5px 5px;
         align-items: center;
         
@@ -86,11 +86,11 @@
     & .left__slider__three{
         display: flex;
         flex-direction: column;
-        background-image: url(./banner_img/banner.png);
+        background-image: url(./banner_img/Layer4.png);
         background-position: center;
         height: 505px;
         background-repeat: no-repeat;
-        width: 870px;   
+        width: 98%;    
         border-radius: 0 0 5px 5px;
         align-items: flex-end;
         padding: 0 64px 0 0;
@@ -140,6 +140,24 @@
             &:hover {
                 cursor: pointer;
             }
+        }
+    }
+
+    @media screen and (max-width: 1280px) {
+        a {
+            font-size: 10px;
+        }
+        .left__slider__one header {
+            font-size: 30px;
+        }
+        .left__slider__two header {
+            font-size: 30px;
+        }
+        .left__slider__three header {
+            font-size: 30px;
+        }
+        .left__slider__one {
+            background-position: center;
         }
     }
 }

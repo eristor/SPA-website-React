@@ -8,6 +8,7 @@ import img4 from '../item_img/3.jpg';
 import './IPSwiper.scss';
 
 function IPSwiper() {
+    const [modalActive, setModalActive] = useState(false)
 
     const [imgs, setImgs] = useState([
         {
@@ -35,9 +36,10 @@ function IPSwiper() {
         setSliderData(slider);
     }
 
+
     return (
         <div className='IPSwiper__content__swiper'>
-            <div className='IPSwiper__content__swiper__big' style={{ backgroundImage: `url(${sliderData.value})` }} />
+            <div className='IPSwiper__content__swiper__big' style={{ backgroundImage: `url(${sliderData.value})` }} onClick={() => setModalActive(true)} />
             <div className='IPSwiper__content__swiper__little'>
                 {
                     imgs.map((data, index) =>
@@ -49,6 +51,13 @@ function IPSwiper() {
                             onClick={() => handleClick(index)} />
                     )
                 }
+            </div>
+            <div className={modalActive ? "img__fullScr active" : "img__fullScr"} onClick={() => setModalActive(false)}>
+                <div className='img__fullScr__content'
+                    style={{ backgroundImage: `url(${sliderData.value})` }}
+                    onClick={() => setModalActive(false)}>
+
+                </div>
             </div>
         </div>
     )

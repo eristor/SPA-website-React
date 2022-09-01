@@ -13,6 +13,32 @@
     &.active {
         transform: scale(1);
     }
+    .Password__label {
+        position: relative;
+        & .Password__btn {
+            position: absolute;
+            right: 15px;
+            top: 0px;
+            cursor: pointer;
+            &.active {
+                &::after {
+                    opacity: 0;
+                }
+            }
+            &::after {
+                position: absolute;
+                content: '';
+                top: 8px;
+                right: 1px;
+                width: 30px;
+                height: 2px;
+                background: gray;
+                transform: rotate(45deg);
+                transition: .3s all ease;
+                opacity: 1;
+            }
+        }
+    }
 
     &__content {
         display: flex;

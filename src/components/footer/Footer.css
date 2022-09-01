@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.Footer {
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1280px;
+  margin: 0 auto;
+  padding-top: 43px;
+  padding-left: 55px;
+}
+
+.Footer__contacts {
+  font-size: 12px;
+  width: 195px;
+  height: 215px;
+}
+
+.Footer__contacts__copyright {
+  margin-bottom: 36px;
+}
+
+.Footer__contacts__info h3 {
+  margin-bottom: 16px;
+}
+
+.Footer__contacts__info span {
+  line-height: 18px;
+}
+
+.Footer__contacts__info__data {
+  margin-top: 30px;
+}
+
+.Footer__contacts__info__data a {
+  color: black;
+}
+
+.Footer__contacts__info__data div:first-child {
+  margin-bottom: 20px;
+}
+
+.Footer__nav {
+  width: 670px;
+  height: 270px;
+}
+
+.Footer__nav__header span:first-child {
+  margin-right: 582px;
+}
+
+.Footer__nav__content {
+  color: #8f8e8e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+  line-height: 30px;
+  margin-left: 3px;
+}
+
+.Footer__nav__content ul {
+  margin-right: 139px;
+}
+
+.Footer__nav__content li {
+  width: 85px;
+}
+
+.Footer__iconbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 120px;
+  margin-left: 105px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+}
+
+.Footer__iconbar__facebook {
+  background-image: url(./Footer_img/f.png);
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  width: 9px;
+  height: 18px;
+}
+
+.Footer__iconbar__google {
+  background-image: url(./Footer_img/g.png);
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  width: 17px;
+  height: 18px;
+}
+
+.Footer__iconbar__twitter {
+  background-image: url(./Footer_img/t.png);
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  width: 20px;
+  height: 20px;
+}
+
+.Footer__iconbar__pintrest {
+  background-image: url(./Footer_img/p.png);
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  width: 15px;
+  height: 18px;
+}
+/*# sourceMappingURL=Footer.css.map */

@@ -1,0 +1,206 @@
+.Mobile__popularItem {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #262a33;
+  width: 100%;
+  padding: 0;
+}
+
+.Mobile__popularItem .Main__mobile__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Mobile__popularItem .swiper-wrapper {
+  height: 420px;
+}
+
+.Mobile__popularItem .PopularItem__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 20px;
+  color: white;
+}
+
+.Mobile__popularItem .PopularItem__header__ {
+  width: 30%;
+  border-bottom: 1px solid white;
+  opacity: .2;
+}
+
+.Mobile__popularItem .Card {
+  position: relative;
+  width: 85%;
+  max-width: 320px;
+  height: 367px;
+  background-color: white;
+  border-radius: 7px;
+  font-size: 15px;
+  margin-bottom: 29px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.Mobile__popularItem .Card:hover .Card__purch {
+  visibility: visible;
+}
+
+.Mobile__popularItem .Card:hover .Card__effect {
+  visibility: visible;
+}
+
+.Mobile__popularItem .Card__back {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: 261px;
+  background-size: cover;
+  background-position: right;
+  border-radius: 7px 7px 0 0;
+}
+
+.Mobile__popularItem .Card__text {
+  margin: 18px 18px 8px 18px;
+}
+
+.Mobile__popularItem .Card__text p {
+  text-align: center;
+  color: #687482;
+  font-size: 15px;
+}
+
+.Mobile__popularItem .Card__priceblock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 180px;
+  -webkit-box-shadow: 0px 0px 0px 1px #eaeaea;
+          box-shadow: 0px 0px 0px 1px #eaeaea;
+  border-radius: 15px;
+}
+
+.Mobile__popularItem .Card__priceblock__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  color: #41ca81;
+  -webkit-box-shadow: 0px 0px 0px 1px #eaeaea;
+          box-shadow: 0px 0px 0px 1px #eaeaea;
+  margin-right: 17px;
+  padding: 7px 15px 7px 15px;
+  font-size: 15px;
+  border-radius: 15px 0 0 15px;
+}
+
+.Mobile__popularItem .Card__priceblock__priceOnly {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #61708d;
+  margin-left: 40% !important;
+  margin-top: 13px;
+  font-size: 15px;
+}
+
+.Mobile__popularItem .Card__priceblock__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  color: black;
+  font-weight: 600;
+  padding-right: 9px;
+  font-size: 13px;
+}
+
+.Mobile__popularItem .Card__purch {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+  left: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+}
+
+.Mobile__popularItem .Card__purch__heart {
+  background-image: url(./card_img/heart.png);
+  width: 30%;
+  height: 20%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Mobile__popularItem .Card__purch__plus {
+  background-image: url(./card_img/plus.png);
+  width: 30%;
+  height: 20%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Mobile__popularItem .Card__effect {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+  left: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  visibility: visible;
+  background: -webkit-gradient(linear, right bottom, left top, from(#32c676), to(#3bcfa1));
+  background: linear-gradient(to top left, #32c676, #3bcfa1);
+  opacity: .9;
+  visibility: hidden;
+}
+
+.Mobile__popularItem .MySwiper {
+  width: 100%;
+}
+
+.Mobile__popularItem .swiper-pagination-bullet {
+  background-color: white;
+  opacity: .6;
+  margin-bottom: 0px !important;
+}
+
+.Mobile__popularItem .swiper-pagination-bullet-active {
+  background-color: transparent;
+  -webkit-box-shadow: 0 0 0 3px white;
+          box-shadow: 0 0 0 3px white;
+  opacity: 1;
+}
+/*# sourceMappingURL=Mobile_popular.css.map */

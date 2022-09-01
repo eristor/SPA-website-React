@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.Mobile__header {
+    width: 99%;
+    background-color: white;
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+
+    .Mobile__header__logo {
+        position: absolute;
+        background-image: url(./img/2.png);
+        width: 35px;
+        height: 35px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        left: 50%;
+        margin-top: 15px;
+    }
+
+    nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: white;
+        width: 100%;
+        line-height: 40px;
+        padding: 8px 25px;
+        border-bottom: 2px solid #efead8;
+    }
+
+    nav label {
+        color: white;
+        font-size: 22px;
+        font-weight: 500;
+        display: block;
+        cursor: pointer;
+    }
+
+    .button span {
+        float: left;
+        line-height: 40px;
+        transition: 0.5s;
+    }
+
+    .button span.rotate {
+        transform: rotate(-180deg);
+    }
+
+    nav ul {
+        position: absolute;
+        background: #262a33;
+        list-style: none;
+        top: 99%;
+        left: 0;
+        width: 100.6%;
+        display: none;
+    }
+
+    [id^=btn]:checked+ul {
+        display: block;
+    }
+
+    nav .menu:before {
+        position: absolute;
+        content: '';
+        height: 20px;
+        width: 20px;
+        background: #1b1b1b;
+        right: 20px;
+        top: -10px;
+        transform: rotate(45deg);
+        z-index: -1;
+    }
+
+    nav ul li {
+        line-height: 40px;
+        padding: 8px 20px;
+        cursor: pointer;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    nav ul li label {
+        font-size: 18px;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        display: block;
+    }
+
+    nav ul li a:hover,
+    nav ul li label:hover {
+        color: white;
+    }
+
+    nav ul ul {
+        position: static;
+    }
+
+    nav ul ul li {
+        line-height: 30px;
+        padding-left: 30px;
+        border-bottom: none;
+    }
+
+    nav ul ul li a {
+        color: #e6e6e6;
+        font-size: 17px;
+    }
+
+    nav ul li span {
+        font-size: 20px;
+        float: right;
+        margin-top: 10px;
+        padding: 0 10px;
+        transition: 0.5s;
+    }
+
+    nav ul li span.rotate {
+        transform: rotate(-180deg);
+    }
+
+    input {
+        display: none;
+    }
+    li .Header__img {
+        background-image: url(./img/sales.png);
+        background-size: contain;
+        width: 80%;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0 auto;
+    }
+
+}
+
+
+.Mobile__header__wrapper {
+    width: 87%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.burger {
+    background-image: url(./img/header.png);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Chill {
+    height: 100px;
+    width: 100%;
+}

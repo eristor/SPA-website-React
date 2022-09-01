@@ -1,0 +1,134 @@
+.PageNotFound {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 55px 55px 38px 55px;
+  background-color: #f1edea;
+  width: 1180px;
+  height: 620px;
+  margin: 0 auto;
+}
+
+.PageNotFound__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 92px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+}
+
+.PageNotFound__nav__home {
+  color: #85bc23;
+}
+
+.PageNotFound__nav__slash {
+  opacity: .4;
+}
+
+.PageNotFound__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+  margin-bottom: 55px;
+}
+
+.PageNotFound__header__decor {
+  border-bottom: 2px solid red;
+  width: 508px;
+}
+
+.PageNotFound__header__404 {
+  font-size: 45px;
+}
+
+.PageNotFound__content {
+  background-color: white;
+  background-image: url(./not_img/2.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 490px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.PageNotFound__content__img {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 290px;
+  height: 102px;
+  background-image: url(./not_img/1.png);
+  background-repeat: no-repeat;
+  margin-top: 193px;
+  margin-left: 52px;
+}
+
+.PageNotFound__content__text {
+  width: 525px;
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 68px;
+}
+
+.PageNotFound__content__text p {
+  margin-bottom: 20px;
+}
+
+.PageNotFound__content__text h3 {
+  font-size: 25px;
+  margin-bottom: 28px;
+}
+
+.PageNotFound__content__text Link {
+  margin-top: 45px;
+}
+
+.PageNotFound__content__text__search {
+  margin-top: 45px;
+}
+
+.PageNotFound__content__text__search input {
+  width: 500px;
+  height: 32px;
+  border-radius: 20px;
+  padding-left: 15px;
+  border: 3px solid #f1edea;
+  color: black;
+  font-size: 12px;
+  background-image: url(./not_img/search.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.PageNotFound__content__text__search input:focus {
+  outline: none;
+}
+
+.PageNotFound__content__text__home {
+  color: #85bc23;
+}
+/*# sourceMappingURL=PageNotFound.css.map */

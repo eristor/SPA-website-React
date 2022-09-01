@@ -1,0 +1,45 @@
+.Cookies {
+  background: white !important;
+  width: 80% !important;
+  margin-left: 11%;
+  color: black !important;
+  margin-bottom: 2%;
+  font-size: 13px;
+  border-radius: 5px;
+  line-height: 25px;
+}
+
+.Cookies h2 {
+  margin-bottom: 1%;
+  color: #85bc23;
+}
+
+.Cookies a {
+  color: #85bc23;
+}
+
+#rcc-confirm-button {
+  background-color: #85bc23 !important;
+  color: white !important;
+  border-radius: 25px !important;
+  padding: 10px 40px !important;
+}
+
+#rcc-decline-button {
+  background-color: white !important;
+  color: black !important;
+}
+
+.Main__button__cookie {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+/*# sourceMappingURL=app.css.map */

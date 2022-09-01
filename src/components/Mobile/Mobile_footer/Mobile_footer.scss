@@ -1,0 +1,53 @@
+.Mobile__footer {
+    width: 98%;
+    padding: 10px 0px 10px 2%;
+    font-size: 13px;
+
+    &__copy {
+        margin-bottom: 4%;
+    }
+
+    &__contact {
+        margin-bottom: 5%;
+    }
+
+    &__categoriest {
+        margin-bottom: 5%;
+        line-height: 20px;
+
+        ul {
+            margin-top: 1%;
+            margin-left: 1%;
+        }
+    }
+
+    &__about {
+        margin-bottom: 3%;
+        line-height: 20px;
+
+        ul {
+            margin-top: 1%;
+            margin-left: 1%;
+        }
+    }
+
+    .Info {
+        line-height: 25px;
+        margin-left: 1%;
+
+        .Footer__mobile__contacts__info__data {
+            margin-top: 2%;
+
+            a {
+                color: black;
+            }
+        }
+    }
+
+    .Footer__iconbar {
+        margin: 0 auto;
+    }
+    .read-more-link {
+        font-size: 11px;
+    }
+}

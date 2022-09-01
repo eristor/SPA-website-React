@@ -1,0 +1,264 @@
+.Main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Card {
+  position: relative;
+  width: 270px;
+  height: 367px;
+  background-color: white;
+  border-radius: 7px;
+  font-size: 15px;
+  margin-bottom: 29px;
+}
+
+.Card__dif {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.Card__dif__effect2 {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+  left: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#cb648a), to(#685a89));
+  background: linear-gradient(to bottom, #cb648a, #685a89);
+  opacity: .7;
+}
+
+.Card__dif__text {
+  position: absolute;
+  bottom: -60%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 135px;
+  height: 100%;
+  padding: 0 0px 0 20px;
+}
+
+.Card__dif__text__icon {
+  background-image: url(./card_img/Layer150.png);
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+}
+
+.Card__dif__text__ago {
+  margin-top: 20px;
+}
+
+.Card__dif__text .Bottom__box__dif {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Card:hover .Card__purch {
+  visibility: visible;
+}
+
+.Card:hover .Card__effect {
+  visibility: visible;
+}
+
+.Card__back {
+  position: relative;
+  z-index: 0;
+  width: 270px;
+  height: 261px;
+  background-size: cover;
+  background-position: right;
+  border-radius: 7px 7px 0 0;
+}
+
+.Card__text {
+  margin: 18px 18px 8px 18px;
+}
+
+.Card__text p {
+  text-align: center;
+  color: #687482;
+  font-size: 15px;
+}
+
+.Card__priceblock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 180px;
+  -webkit-box-shadow: 0px 0px 0px 1px #eaeaea;
+          box-shadow: 0px 0px 0px 1px #eaeaea;
+  border-radius: 15px;
+}
+
+.Card__priceblock__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  color: #41ca81;
+  -webkit-box-shadow: 0px 0px 0px 1px #eaeaea;
+          box-shadow: 0px 0px 0px 1px #eaeaea;
+  margin-right: 17px;
+  padding: 7px 15px 7px 15px;
+  font-size: 15px;
+  border-radius: 15px 0 0 15px;
+}
+
+.Card__priceblock__priceOnly {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #61708d;
+  margin-left: 105px;
+  margin-top: 13px;
+  font-size: 15px;
+}
+
+.Card__priceblock__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  color: black;
+  font-weight: 600;
+  padding-right: 9px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.Card__purch {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+  left: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+}
+
+.Card__purch__heart {
+  background-image: url(./card_img/heart.png);
+  width: 30%;
+  height: 20%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Card__purch__plus {
+  background-image: url(./card_img/plus.png);
+  width: 30%;
+  height: 20%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Card__effect {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+  left: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  visibility: visible;
+  background: -webkit-gradient(linear, right bottom, left top, from(#32c676), to(#3bcfa1));
+  background: linear-gradient(to top left, #32c676, #3bcfa1);
+  opacity: .9;
+  visibility: hidden;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 262px;
+  height: 32px;
+  border-radius: 20px;
+  border: 2px solid white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #262a33;
+  color: white;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.btn__text {
+  margin-right: 23px;
+  margin-left: 90px;
+}
+
+.btn__img {
+  background-image: url(./card_img/U.png);
+  width: 20px;
+  height: 15px;
+}
+
+.btn__green {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 152px;
+  height: 36px;
+  border-radius: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #85bc23;
+  color: white;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-size: 12px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=card.css.map */

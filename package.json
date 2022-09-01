@@ -13,6 +13,7 @@
     "react-bootstrap": "^2.5.0",
     "react-cookie-consent": "^8.0.1",
     "react-dom": "^18.2.0",
+    "react-responsive": "^9.0.0-beta.10",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-tabs": "^5.1.0",
@@ -47,7 +48,7 @@
   },
   "devDependencies": {
     "amd-define-factory-patcher-loader": "^1.0.0",
-    "jquery": "^3.6.0",
+    "jquery": "^3.6.1",
     "sizzle": "^2.3.6"
   }
 }

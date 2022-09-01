@@ -6,8 +6,7 @@ function Header({ setModalActive, counter, likeCounter }) {
 
     return (
         <div className='Header'>
-            <div className='Header__logo'>
-            </div>
+            <Link to="/"><div className='Header__logo' /></Link>
 
             <nav className='Header__navbar'>
                 <ul className='navbar__mainul'>
@@ -22,44 +21,44 @@ function Header({ setModalActive, counter, likeCounter }) {
                                 </div>
                                 <div className='text__main'>
                                     <ul>
-                                        <li><Link to="/404" >Accessories</Link></li>
-                                        <li><Link to="/404" >Alcohol</Link><a></a></li>
-                                        <li><Link to="/404" >Art</Link><a></a></li>
-                                        <li><Link to="/404" >Books</Link><a></a></li>
-                                        <li><Link to="/404" >Brink</Link><a></a></li>
-                                        <li><Link to="/404" >Electronics</Link><a></a></li>
-                                        <li><Link to="/404" >Flowers &amp; Plants</Link><a></a></li>
-                                        <li><Link to="/404" >Food</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Accessories</Link></li>
+                                        <li><Link to="/404" className='Link'>Alcohol</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Art</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Books</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Brink</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Electronics</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Flowers &amp; Plants</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Food</Link><a></a></li>
                                     </ul>
                                     <ul>
-                                        <li><Link to="/404" >Gadgets</Link><a></a></li>
-                                        <li><Link to="/404" >Garden</Link><a></a></li>
-                                        <li><Link to="/404" >Grocery</Link><a></a></li>
-                                        <li><Link to="/404" >Home</Link><a></a></li>
-                                        <li><Link to="/404" >Jewelry</Link><a></a></li>
-                                        <li><Link to="/404" >Kids &amp; Baby</Link><a></a></li>
-                                        <li><Link to="/404" >Man's Fashion</Link><a></a></li>
-                                        <li><Link to="/404" >Mobile</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Gadgets</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Garden</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Grocery</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Home</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Jewelry</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Kids &amp; Baby</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Man's Fashion</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Mobile</Link><a></a></li>
                                     </ul>
                                     <ul>
-                                        <li><Link to="/404" >Motorcycles</Link><a></a></li>
-                                        <li><Link to="/404" >Movies</Link><a></a></li>
-                                        <li><Link to="/404" >Music</Link><a></a></li>
-                                        <li><Link to="/404" >Office</Link><a></a></li>
-                                        <li><Link to="/404" >Pets</Link><a></a></li>
-                                        <li><Link to="/404" >Romantic</Link><a></a></li>
-                                        <li><Link to="/404" >Sport</Link><a></a></li>
-                                        <li><Link to="/404" >Toys</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Motorcycles</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Movies</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Music</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Office</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Pets</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Romantic</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Sport</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Toys</Link><a></a></li>
                                     </ul>
                                     <ul>
-                                        <li><Link to="/404" >Accessories</Link><a></a></li>
-                                        <li><Link to="/404" >Alcohol</Link><a></a></li>
-                                        <li><Link to="/404" >Art</Link><a></a></li>
-                                        <li><Link to="/404" >Books</Link><a></a></li>
-                                        <li><Link to="/404" >Brink</Link><a></a></li>
-                                        <li><Link to="/404" >Electronics</Link><a></a></li>
-                                        <li><Link to="/404" >Flowers &amp; Plants</Link><a></a></li>
-                                        <li><Link to="/404" >Food</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Accessories</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Alcohol</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Art</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Books</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Brink</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Electronics</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Flowers &amp; Plants</Link><a></a></li>
+                                        <li><Link to="/404" className='Link'>Food</Link><a></a></li>
                                     </ul>
                                 </div>
                             </div>

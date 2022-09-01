@@ -3,7 +3,7 @@ import ReadMoreReact from 'read-more-react';
 
 
 import './ItemPaperInfo.scss';
-function ItemPaperInfo({counter, setCounter}) {
+function ItemPaperInfo({ counter, setCounter }) {
 
     const [value, setValue] = useState(0);
 
@@ -23,9 +23,9 @@ function ItemPaperInfo({counter, setCounter}) {
     };
 
     const addToCard = () => {
-        const result = +(counter + value)
+        const result = +(+counter + value)
 
-        setCounter(result)
+        setCounter(+result)
     }
 
 
@@ -66,10 +66,10 @@ function ItemPaperInfo({counter, setCounter}) {
             <div className='ItemPaperInfo__content__ItemInfo__icons'>
                 <div className='ItemPaperInfo__content__ItemInfo__icons__share'>Share</div>
                 <div className='ItemPaperInfo__content__ItemInfo__icons__bar'>
-                    <div className='ItemPaperInfo__content__ItemInfo__icons__bar__facebook'></div>
-                    <div className='ItemPaperInfo__content__ItemInfo__icons__bar__google'></div>
-                    <div className='ItemPaperInfo__content__ItemInfo__icons__bar__twitter'></div>
-                    <div className='ItemPaperInfo__content__ItemInfo__icons__bar__pintrest'></div>
+                    <a href='https://www.facebook.com/'><div className='ItemPaperInfo__content__ItemInfo__icons__bar__facebook'></div></a>
+                    <a href='https://myaccount.google.com/'><div className='ItemPaperInfo__content__ItemInfo__icons__bar__google'></div></a>
+                    <a href='https://twitter.com/'><div className='ItemPaperInfo__content__ItemInfo__icons__bar__twitter'></div></a>
+                    <a href='https://ru.pinterest.com/'><div className='ItemPaperInfo__content__ItemInfo__icons__bar__pintrest'></div></a>
                 </div>
             </div>
 
